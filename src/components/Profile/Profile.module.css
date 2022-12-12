@@ -1,54 +1,50 @@
 .profile {
-  width: 300px;
-  margin-top: 50px;
+  max-width: 400px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20px;
+  padding: 20px 10px;
 
   overflow: hidden;
-  border-radius: 20px;
-  background-color: beige;
-  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: rgb(171, 197, 223);
+  border: 3px solid gray;
 }
 
 .description {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 20px;
-
 }
 
 .avatar {
-  width: 200px;
-  margin-bottom: 30px;
+  width: 250px;
+  margin-bottom: 20px;
 
   border-radius: 50%;
-  background-color: aquamarine;
+  background-color: rgb(196, 200, 189);
 }
 
 .name {
-  margin-bottom: 15px;
-
   font-size: 20px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.tag {
-  margin-bottom: 15px;
-  color: gray;
-}
-
+.tag,
 .location {
-  color: gray;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .stats {
   display: flex;
   justify-content: space-between;
 
-  background-color: bisque;
-  border-top: 1px solid gray;
+  background-color: rgb(196, 200, 189);
+  border: 1px solid gray;
+  overflow: hidden;
+  border-radius: 5px;
 }
 
 .stats>li {
@@ -57,16 +53,11 @@
   align-items: center;
   flex-basis: 33.3%;
   padding: 10px 0;
+  border: 1px solid gray;
 }
-
-.stats>li:not(:last-child) {
-  border-right: 1px solid gray;
+.label{
+  font-weight: 400;
 }
-
-.label {
-  margin-bottom: 5px;
-}
-
 .quantity {
   font-weight: bold;
 }
