@@ -1,6 +1,6 @@
-import PropTypes from 'prop-types';
-import css from './Profile.module.css';
-import user from 'data/user'
+// import PropTypes from 'prop-types';
+// import css from './Profile.module.css';
+// import user from 'data/user'
 
 export const Profile = () => {
   return (
@@ -33,11 +33,3 @@ export const Profile = () => {
     </div>
   )
 }
-
-{/* <Profile
-  username={user.username}
-  tag={user.tag}
-  location={user.location}
-  avatar={user.avatar}
-  stats={user.stats}
-/> */}
