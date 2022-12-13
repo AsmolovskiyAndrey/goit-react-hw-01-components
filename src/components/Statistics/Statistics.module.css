@@ -1,6 +1,6 @@
 .statistics {
   width: 400px;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   padding: 20px 10px;
@@ -9,9 +9,10 @@
 }
 
 .title {
-  padding: 20px 0;
+  padding: 10px 0;
   text-align: center;
-  color: gray;
+  color: black;
+  text-transform: uppercase;
 }
 
 .statList {
